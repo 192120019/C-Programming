@@ -1,0 +1,28 @@
+ PROGRAMMING -1:
+
+// Online C compiler to run C program online
+#include <stdio.h>
+#include<stdio.h>
+#include<string.h>
+main()
+{
+    char user1[30],user2[30];
+    printf("Enter username:");
+    gets(user1);
+    printf("Renter username:");
+    gets(user2);
+    if(strcmp(user1,user2)==0){
+        printf("user name is valid");
+    }
+    else{
+       printf("user name is invalid");
+    }
+}
+
+
+OUTPUT:
+
+/tmp/Y3PTNiztlL.o
+Enter username:saveetha@789
+Renter username:saveetha@123
+user name is invalid
